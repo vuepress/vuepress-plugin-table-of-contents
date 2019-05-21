@@ -1,0 +1,35 @@
+{
+  "name": "vuepress-plugin-table-of-contents",
+  "version": "0.0.0",
+  "description": "Table of contents plugin for VuePress",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "table-of-contents",
+    "toc"
+  ],
+  "repository": "https://github.com/vuepress/vuepress-plugin-table-of-contents",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-vuepress": "^0.0.2",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7"
+  }
+}
