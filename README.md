@@ -1,5 +1,7 @@
 # [vuepress-plugin-table-of-contents](https://vuepress.github.io/plugins/table-of-contents.html)
 
+> Migrated to [vuepress-community](https://github.com/vuepress/vuepress-community)
+
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-table-of-contents.svg)](https://www.npmjs.com/package/vuepress-plugin-table-of-contents)
 [![GitHub](https://img.shields.io/github/license/vuepress/vuepress-plugin-table-of-contents.svg)](https://github.com/vuepress/vuepress-plugin-table-of-contents/blob/master/LICENSE)
 
